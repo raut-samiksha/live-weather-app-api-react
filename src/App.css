@@ -1,0 +1,35 @@
+.w-bg{
+  background: url("https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading{
+  color: black;
+  font-weight: 700;
+}
+
+.wether-result-box{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+}
+
+.wheather-icon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
+.wheather-city{
+  font-size: 35px;
+}
+
+.wheather-temp{
+  font-size: 55px;
+  font-weight: 700;
+}
+
