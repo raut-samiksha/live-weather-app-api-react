@@ -46,4 +46,4 @@ jobs:
         user_name: 'raut-samiksha'
         user_email: 'samiksharaut2515@gmail.com'
         github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-        repository: ${{ github.repository }}
+        repository: live-weather-app-api-react
