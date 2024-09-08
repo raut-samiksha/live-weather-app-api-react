@@ -34,13 +34,13 @@ jobs:
       uses: codecov/codecov-action@v1
 
     - name: Build
-      run: npm run build
+      run: bun run build
 
     - name: Deploy
       run: |
         git config --global user.name raut-samiksha
         git config --global user.email samiksharaut2515@gmail.com
-         git remote add origin https://github.com/raut-samiksha/live-weather-app-api-react.git
+        git remote add origin https://github.com/raut-samiksha/live-weather-app-api-react.git
         bun run deploy
       env:
         user_name: 'raut-samiksha'
